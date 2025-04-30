@@ -30,6 +30,7 @@ body {
   background-color: var(--Dark-Blue-intro-and-email-sign-up-background);
   max-width: 1440px;
   margin: auto;
+  border: 1px solid yellow;
 }
 
 nav {
@@ -618,9 +619,8 @@ footer {
   .foot-3 p,
   .foot-4 p {
     font-size: 12px;
-  }git add
-
-  .foot-2 {
+  }
+  git add .foot-2 {
     margin-bottom: 60px;
   }
 
