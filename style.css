@@ -591,6 +591,7 @@ footer {
 }
 
 .foot-3 a,
+.foot-2 a,
 .foot-4 a {
   color: var(--White);
   text-decoration: none;
