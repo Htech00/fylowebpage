@@ -495,8 +495,8 @@ form input::placeholder {
 /* Responsive ness for  section5 from 500px to 0px */
 @media (max-width: 500px) {
   .get_early {
-    max-width: 300px;
-    left: 2%;
+    max-width: 350px;
+    left: 5%;
     right: 5%;
     bottom: -170px;
     padding: 40px 20px;
