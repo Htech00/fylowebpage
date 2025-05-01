@@ -30,7 +30,6 @@ body {
   background-color: var(--Dark-Blue-intro-and-email-sign-up-background);
   max-width: 1440px;
   margin: auto;
-  border: 1px solid yellow;
 }
 
 nav {
@@ -74,7 +73,7 @@ nav {
   }
 
   nav img {
-    width: 80px;
+    width: 100px;
   }
 }
 
@@ -127,7 +126,9 @@ header button:hover {
 .wave-deck {
   position: absolute;
   left: 0;
-  bottom: -171px;
+  max-width: 1440px;
+  width: 100%;
+  bottom: -125px;
 }
 
 .wave-mob {
@@ -162,12 +163,12 @@ header button:hover {
   }
 
   .wave-mob {
-    display: block;
+    display: inline;
     position: absolute;
     left: 0;
     max-width: 500px;
     width: 100%;
-    bottom: 240px;
+    bottom: 250px;
   }
 
   .wave-deck {
@@ -188,7 +189,7 @@ header button:hover {
 
 .section2 {
   background-color: var(--Dark-Blue-main-background);
-  margin-top: 170px;
+  margin-top: 120px;
   display: flex;
 }
 
@@ -329,7 +330,7 @@ header button:hover {
 .section4 {
   background-color: var(--Dark-Blue-main-background);
   position: relative;
-  padding-bottom: 400px;
+  padding-bottom: 300px;
 }
 
 .test_con {
@@ -418,7 +419,7 @@ header button:hover {
   }
 
   .section4 {
-    padding-bottom: 300px;
+    padding-bottom: 250px;
   }
 }
 
@@ -427,6 +428,7 @@ header button:hover {
 .section5 {
   background-color: var(--Dark-Blue-main-background);
   position: relative;
+  padding-top: 70px;
 }
 .get_early {
   background-color: var(--Dark-Blue-intro-and-email-sign-up-background);
@@ -436,9 +438,9 @@ header button:hover {
   border-radius: 8px;
   box-shadow: 10px 10px 0 hsl(218, 28%, 10%);
   position: absolute;
-  left: 20%;
-  right: 20%;
-  top: -150px;
+  left: 13%;
+  right: 10%;
+  top: -100px;
 }
 
 .get_early h2 {
@@ -493,19 +495,19 @@ form input::placeholder {
 /* Responsive ness for  section5 from 500px to 0px */
 @media (max-width: 500px) {
   .get_early {
-    max-width: 350px;
-    left: 5%;
+    max-width: 300px;
+    left: 2%;
     right: 5%;
     bottom: -170px;
     padding: 40px 20px;
   }
 
   .get_early h2 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .get_early p {
-    padding: 0 17px;
+    padding: 0 15px;
     font-size: 12px;
     line-height: 18px;
   }
@@ -529,35 +531,37 @@ form input::placeholder {
 
 footer {
   background-color: var(--Dark-Blue-footer-background);
-  padding-top: 250px;
-  padding-bottom: 60px;
+  color: var(--white);
 }
 
 .main-footer {
-  max-width: 1250px;
+  max-width: 1200px;
   margin: auto;
+  padding: 200px 0;
 }
 
 .inner-footer {
-  margin-top: 30px;
   display: grid;
   grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
-  gap: 30px;
+  margin-top: 50px;
+
+  /* margin-top: 30px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
+  gap: 30px; */
 }
 
 .foot-1 {
   display: flex;
-  gap: 20px;
   align-items: start;
+  gap: 20px;
 }
 
 .foot-1 p {
   color: var(--White);
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  padding-right: 50px;
+  padding-right: 150px;
   line-height: 22px;
+  font-size: 14px;
 }
 
 .foot-2 {
@@ -607,11 +611,13 @@ footer {
 @media (max-width: 500px) {
   .inner-footer {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .main-footer {
-    max-width: 330px;
-    padding-bottom: 20px;
+    max-width: 300px;
+    padding-bottom: 50px;
+    padding-top: 250px;
   }
 
   .foot-1 p,
@@ -620,8 +626,8 @@ footer {
   .foot-4 p {
     font-size: 12px;
   }
-  git add .foot-2 {
-    margin-bottom: 60px;
+  .foot-2 {
+    margin-bottom: 50px;
   }
 
   .foot-3 {
