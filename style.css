@@ -496,7 +496,7 @@ form input::placeholder {
 @media (max-width: 500px) {
   .get_early {
     max-width: 350px;
-    left: 5%;
+    left: 4%;
     right: 5%;
     bottom: -170px;
     padding: 40px 20px;
